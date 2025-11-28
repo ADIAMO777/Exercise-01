@@ -55,3 +55,19 @@ h2 {
     background-color: tomato;
 
 }
+
+@media (max-width:768px) {
+    body {
+        height: 100px;
+        max-width: fit-content;
+    }
+    
+
+    h1, h2 {
+        font-size: small;
+
+    }
+    .cta-button {
+        size-adjust: 50px;
+    }
+}
