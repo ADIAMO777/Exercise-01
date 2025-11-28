@@ -53,21 +53,20 @@ h2 {
 
 }
 
-@media (max-width:768px) {
+@media (max-width: 768px) {
     body {
-        height: 100px;
-        max-width: 100px;
+        margin: 0%;
+        padding: 0%;
+        border: 0%;
+        height: 0px;
+        text-align: start;
     }
     
     h1, h2 {
-        font-size: 20px;
-
-
+        font-size: 15px;
     }
+
     .cta-button {
-        size-adjust: 50px;
-        list-style: none;
-        align-items: flex-end;
-        
-    }
+        font-size: x-large;
+}
 }
