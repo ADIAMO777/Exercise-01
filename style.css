@@ -62,7 +62,12 @@ h2 {
         text-align: start;
     }
     
-    h1, h2 {
+    h1 {
+        font-size: 60px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    
+    h2 {
         font-size: 15px;
     }
 
