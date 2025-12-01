@@ -10,19 +10,19 @@ co1.addEventListener(`click`, function(){
 });
 
  main =document.querySelector(`.main`);
- btn =document.querySelector(`co2`);
+ btn =document.querySelector(`#co2`);
 btn.addEventListener(`click`, function(){
         main.style.color=` red`;
 });
 
 main =document.querySelector(`.main`);
-btn =document.querySelector(`co3`);
+btn =document.querySelector(`#co3`);
 btn.addEventListener(`click`, function(){
         main.style.color=` #05c9fd`;
 });
 
 main =document.querySelector(`.main`);
-btn =document.querySelector(`co4`);
+btn =document.querySelector(`#co4`);
 btn.addEventListener(`click`, function(){
         main.style.color=` #fe02a1`;
 });
